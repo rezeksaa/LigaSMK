@@ -1,0 +1,445 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+.head {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  border: solid;
+  border-color: black;
+  border-width: .01px;
+}
+.logoliga {
+  position: absolute;
+  left: 240px;
+  height: 30px;
+}
+.opsi {
+  position: absolute;
+  right: 220px;
+}
+.tombolopsi {
+  margin-left: 30px;
+  border: none;
+  background: #ffffff;
+  font-weight: bold;
+  color: #404145;
+}
+.down-arrow {
+  margin-left: -7px;
+  position: absolute;
+  bottom: 1px;
+}
+.current {
+  color: #7c60ed;
+}
+.main1 {
+  background: #f0f3ff;
+  width: 100%;
+  height: 700px;
+  display: flex;
+}
+.main1-kiri {
+  position: absolute;
+  width: 50%;
+  height: 700px;
+}
+.main1-kanan {
+  width: 50%;
+  height: 700px;
+}
+.woman {
+  position: absolute;
+  max-width: 30%;
+  height: auto;
+  top: 130px;
+  right: 200px;
+}
+.isi-main1 {
+  width: 61%;
+  margin-top: 110px;
+  margin-left: 240px;
+}
+.bergabung {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+.mengubah {
+  font-weight: 4px;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #787879;
+  line-height: 30px;
+  width: 455px;
+}
+.mulai {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-top: 25px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  text-align: left;
+  background: #3a10e5;
+  color: white;
+  display: flex;
+  padding-left: 20px;
+}
+.panah-kanan {
+  margin-left: 85px;
+}
+.pembatas {
+  background: #facb3b;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+}
+.poin {
+  width: 18%;
+  display: flex;
+  align-items: center;
+}
+.text-poin {
+  margin-left: 20px;
+  width: 204px;
+  height: 88px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.poin-atas {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.poin-bawah {
+  margin-top: 5px;
+  font-size: 15px;
+  width: 240px;
+}
+.course {
+  width: 100%;
+  height: 1000px;
+  margin-top: 90px;
+}
+.option {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+.judul {
+  font-family: "Kumbh Sans", sans-serif;
+  margin-left: 40px;
+}
+.highlight {
+  background-image: linear-gradient(to top, #fdd5a1 30%, transparent 50%);
+}
+.pilihan-pelajaran {
+  color: #a2a2a2;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  background: white;
+  margin-top: 25px;
+}
+.terpilih {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: black;
+  padding: 10px;
+}
+.model {
+  width: 300px;
+  height: 370px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  transform: scale(85%);
+}
+.option-desc {
+  margin-top: 70px;
+  width: 80%;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 152.5px;
+  gap: 0px;
+}
+.nama {
+  margin-left: 30px;
+  font-family: "DM Sans", sans-serif;
+  color: #421ae6;
+  font-weight: bold;
+}
+.model-title {
+  width: 250px;
+  margin-left: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.desc-diff {
+  display: inline-block;
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  margin-left: 5px;
+}
+.logo-diff {
+  margin-left: 30px;
+}
+.difficulty {
+  display: flex;
+  align-items: center;
+  width: 120px;
+}
+.deskripsi-bawah {
+  display: flex;
+}
+.foto {
+  position: relative;
+}
+.new {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.pembatas2 {
+  width: 100%;
+  height: 300px;
+  background: #fff0e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-pambatas {
+  display: inline-block;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  width: 500px;
+}
+.penyatu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.membership {
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  background: #3a10e5;
+  border-radius: 5px;
+}
+.kategori {
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+  margin-top: 60px;
+}
+.bagian-judul {
+  width: 100%;
+  height: 39px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.kumpulan-kartu {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.kartu {
+  padding-left: 20px;
+  width: 200px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.nama-kelas {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  height: 10px;
+}
+.jumlah-kelas {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  height: 10px;
+  width: 100px;
+  color: #888888;
+}
+.deskripsi-kelas {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+.ilustrasi {
+  width: 100px;
+  height: 100px;
+  background: #f0f3ff;
+  border-radius: 50%;
+}
+.seo {
+  margin-top: 10px;
+  width: 40px;
+  height: 50px;
+}
+.explore {
+  color: #542ee8;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.tingkatkan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 600px;
+  background: #f0f3ff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -190px;
+}
+.kumpulan-tingkatkan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-tingkatkan {
+  width: 40%;
+  margin-left: 100px;
+}
+.ttingkatkan {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: -50px;
+}
+.ting-desc {
+  color: #777778;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}
+.coba {
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: none;
+  background: #542ee8;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}
+.macam {
+  margin-top: -150px;
+  height: 450px;
+  width: 411px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.event {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.eskripsi {
+  display: flex;
+}
+.tanggal {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  flex-wrap: wrap;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  height: 50px;
+}
+.tanggal-atas {
+  color: #542ee8;
+  margin: 0;
+  font-size: 30px;
+}
+.tanggal-bawah {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+}
+.lokasi {
+  margin-left: 20px;
+}
+.info-lokasi {
+  margin-left: 10px;
+  font-family: "DM Sans", sans-serif;
+  color: #777778;
+}
+.rdeskripsi {
+  font-size: 25px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.foot {
+  padding-top: 100px;
+  width: 100%;
+  height: 600px;
+  background: #090e23;
+  margin-top: -300px;
+}
+.satuan {
+  display: flex;
+  gap: 60px;
+  margin-left: 200px;
+  margin-bottom: -150px;
+}
+.palingkiri {
+  width: 410px;
+  height: 300px;
+}
+.last {
+  font-family: "DM Sans", sans-serif;
+  color: #777778;
+}
+.resources {
+  width: 410px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+li {
+  color: white;
+  list-style: none;
+  font-family: "DM Sans", sans-serif;
+  line-height: 40px;
+}
+.inner {
+  color: #777778;
+}
+.downloadnow {
+  width: 200px;
+  height: 300px;
+}
+.donlot {
+  padding: 5px;
+  background: white;
+  border-radius: 5px;
+}
